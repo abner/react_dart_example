@@ -1,0 +1,35 @@
+name: arquitetura_referencia_web
+description: A new Dart Web project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  key_value_store_web: ^1.0.0
+  pwa: ^0.1.11
+  react: ^5.3.0
+  over_react: ^3.1.7
+  arquitetura_referencia_core:
+    path: ../core
+  redux: ^3.0.0
+
+dev_dependencies:
+  mockito: ^4.1.1
+  test:  ^1.11.0
+  built_value_generator: ^7.0.0
+  build_runner: ^1.7.1
+  build_web_compilers: ^2.8.0
+  sass_builder: ^2.1.1
+  build_test: ^0.10.11
